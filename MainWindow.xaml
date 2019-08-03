@@ -10,6 +10,7 @@
         <Label Content="Enter stock ticker:" HorizontalAlignment="Left" Margin="18,16,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="121,19,0,0" TextWrapping="Wrap" Text="Enter stock ticker" VerticalAlignment="Top" Width="168" Name="StockSearch"/>
         <Button Content="Go" HorizontalAlignment="Left" Margin="308,22,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click" Name="QueryAPIAndGetStockInfo"/>
+        <TextBlock HorizontalAlignment="Left" Height="205" Margin="18,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="635" Name="results"/>
 
     </Grid>
 </Window>
