@@ -1,0 +1,15 @@
+﻿<Window x:Class="StockGrabber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockGrabber"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Enter stock ticker:" HorizontalAlignment="Left" Margin="18,16,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="121,19,0,0" TextWrapping="Wrap" Text="Enter stock ticker" VerticalAlignment="Top" Width="168" Name="StockSearch"/>
+        <Button Content="Go" HorizontalAlignment="Left" Margin="308,22,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click" Name="QueryAPIAndGetStockInfo"/>
+
+    </Grid>
+</Window>
